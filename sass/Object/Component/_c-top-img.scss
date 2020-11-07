@@ -1,0 +1,14 @@
+@import "../../Foundation/mixin";
+.c-top-img{
+    .sp-top{
+        display: none;
+        @include mq(sp){
+            display: block;
+        }
+    }
+    .pc-top{
+        @include mq(sp){
+            display: none;
+        }
+    }
+}
