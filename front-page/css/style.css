@@ -7,7 +7,7 @@
 
 html {
   font-size: 100%;
-  font-family: 'mplus-1m-regular','mplus-1m-bold';
+  font-family: "M+ M Type-1 (general-j) Bold", "M+ M Type-1 (basic latin) Regular";
 }
 
 html,
@@ -115,6 +115,7 @@ td {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'M+ M Type-1 (general-j) Bold';
 }
 
 a {
@@ -350,7 +351,7 @@ select {
 }
 
 .l-sideber .sideber-list ul li {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .l-sideber .sideber-list ul li ul {
@@ -358,8 +359,8 @@ select {
 }
 
 .l-sideber .sideber-list ul li ul li {
-  font-size: 20px;
-  padding: 20px;
+  font-size: 16px;
+  padding: 10px;
 }
 
 .l-footer {
